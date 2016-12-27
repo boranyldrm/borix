@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="borix"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/boran/Desktop/borix-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/boran/Desktop/borix-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/boran/Desktop/borix-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="borix">
+				<Option output="/home/boran/Desktop/borix-master/cmake-build-debug/borix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boran/Desktop/borix-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 borix"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="borix/fast">
+				<Option output="/home/boran/Desktop/borix-master/cmake-build-debug/borix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/boran/Desktop/borix-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 borix/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/boran/Desktop/borix-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/boran/Desktop/borix-master/LICENSE.md">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/README.md">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/boot/kernel.bin">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/commands/all_commands.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/commands/c/echo.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/commands/c/sum.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/commands/h/echo.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/commands/h/sum.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/commands/helper_functions/array_functions.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/commands/helper_functions/array_functions.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/fs/file.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/fs/file.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/fs/filesystem.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/fs/filesystem.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/include/gdt.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/include/interrupts/idt.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/include/interrupts/isr.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/include/keyboard.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/include/list.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/include/screen.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/include/shell.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/include/string.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/include/system.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/include/types.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/include/util.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/kernel/kernel.asm">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/kernel/kernel.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/libc/gdt.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/libc/interrupts/idt.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/libc/interrupts/isr.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/libc/keyboard.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/libc/list.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/libc/screen.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/libc/shell.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/libc/string.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/libc/system.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/libc/util.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/linker/linker.ld">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/makefile">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/mm/alloc.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/mm/alloc.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/mm/page_vars.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/mm/vmm.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/mm/vmm.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/outputs/README.md">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/outputs/idt.o">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/outputs/isr.o">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/outputs/kernelasm.o">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/outputs/kernelc.o">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/outputs/keyboard.o">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/outputs/screen.o">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/outputs/shell.o">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/outputs/string.o">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/outputs/system.o">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/outputs/util.o">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/process/process.c">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/process/process.h">
+			<Option target="borix"/>
+		</Unit>
+		<Unit filename="/home/boran/Desktop/borix-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
